@@ -11,13 +11,13 @@
 				const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
 					method: 'POST',
 					headers: {
-						Authorization: 'Bearer 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',
+						Authorization: 'Apna Api' ,
 						'HTTP-Referer': 'https://www.sitename.com',
 						'X-Title': 'SiteName',
 						'Content-Type': 'application/json',
 					},
 					body: JSON.stringify({
-					 model:"deepseek/deepseek-r1:free",
+					 model:"Name",
 
 
 						messages: [{ role: 'user', content: input }],
